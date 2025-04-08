@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.input-section, .options-section, .output-section {
+    margin-bottom: 20px;
+}
+
+#questionList {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
