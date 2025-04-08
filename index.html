@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Question Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PDF Question Generator</h1>
+
+    <div class="input-section">
+        <label for="pdfFile">Select a PDF file:</label>
+        <input type="file" id="pdfFile" accept=".pdf">
+    </div>
+
+    <div class="options-section">
+        <label for="numQuestions">Number of questions:</label>
+        <input type="number" id="numQuestions" min="1" value="5">
+    </div>
+
+    <button onclick="generateQuestions()">Generate Questions</button>
+
+    <div class="output-section">
+        <h2>Generated Questions:</h2>
+        <ul id="questionList">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
